@@ -1,0 +1,53 @@
+#container-col-h1 {
+	font-size: 64px;
+	font-weight: normal;
+}
+
+#container-col-h1 small {
+	font-weight: 300;
+	color: inherit;
+}
+
+.jumbotron {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  min-height: 600px;
+  background-color: white;
+  background-size: cover;
+}
+
+.jumbotron h1,
+.jumbotron .h1 {
+  color: inherit;
+}
+.jumbotron p {
+  margin-bottom: 15px;
+  font-size: 23px;
+  font-weight: 200;
+}
+.jumbotron > hr {
+  border-top-color: #cccccc;
+}
+.container .jumbotron,
+.container-fluid .jumbotron {
+  border-radius: 0;
+}
+
+.jumbotron .container {
+  padding-top: 150px;
+  max-width: 100%;
+}
+
+.jumbotron .container .container-col{
+  padding-top: 5px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: black;
+  font-weight: normal;
+  /*opacity:0.90;*/
+  /*background: black;*/
+  filter:alpha(opacity=60); /* For IE8 and earlier */
+}
